@@ -1,6 +1,6 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
-**Nhóm:** G02-Sloppers (G02)
+**Nhóm:** Sloppers
 **Thành viên:** Hoàng Quốc Dũng, Lâm Hải Dương, Lê Thị Thùy Trang, Phạm Hoàng Trọng
 **Ngày:** 20/09/2026
 
