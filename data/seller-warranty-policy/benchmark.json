@@ -1,0 +1,89 @@
+[
+  {
+    "id": "Q1",
+    "query": "Theo quy chế TikTok Shop, người bán phải thực hiện bảo hành và bảo trì sản phẩm theo thông tin nào?",
+    "gold_answer": "Người bán phải bảo hành và bảo trì theo thông tin mà họ đã cung cấp và hiển thị khi niêm yết sản phẩm trên TikTok Shop. Nếu sản phẩm có áp dụng bảo hành hoặc bảo trì, người bán phải nhận sản phẩm và thực hiện theo đúng thông tin đã niêm yết.",
+    "expected_doc_id": "tiktok-quy-che-bao-hanh",
+    "evidence_quotes": [
+      "Người Bán phải thực hiện việc bảo hành và bảo trì Sản Phẩm theo thông tin bảo hành và bảo trì sản phẩm mà Người Bán đã cung cấp và hiển thị khi Người Bán niêm yết sản phẩm đó trên TikTok Shop (nếu có).",
+      "Trong trường hợp có bảo hành và bảo trì áp dụng cho Sản Phẩm, Người Bán có trách nhiệm nhận Sản Phẩm và thực hiện bảo hành và bảo trì Sản Phẩm theo thông tin bảo hành và bảo trì sản phẩm như đã niêm yết."
+    ],
+    "retrieval_terms": [
+      "Người Bán phải thực hiện việc bảo hành và bảo trì",
+      "đã cung cấp và hiển thị"
+    ],
+    "evidence_location": "tiktok-quy-che-bao-hanh.md:104-106",
+    "metadata_filter": null
+  },
+  {
+    "id": "Q2",
+    "query": "Thông tin đăng bán sản phẩm bị coi là sai lệch nếu không chính xác hoặc không thể xác minh về những nhóm nội dung nào?",
+    "gold_answer": "Các nhóm nội dung gồm: cam kết hoặc chính sách bảo hành; vận chuyển, giao hàng, đổi trả, hoàn tiền hoặc dịch vụ khách hàng; thông tin về người bán như quyền sở hữu trí tuệ; và hình ảnh hoặc mô tả sản phẩm.",
+    "expected_doc_id": "tiktok-thong-tin-bao-hanh-sai-lech",
+    "evidence_quotes": [
+      "Trước hết, thông tin đăng bán sản phẩm của bạn phải mô tả sản phẩm một cách chính xác và trung thực.",
+      "Cam kết hoặc chính sách bảo hành của sản phẩm.",
+      "Quy trình vận chuyển, giao hàng, đổi trả, hoàn tiền hoặc dịch vụ khách hàng liên quan đến sản phẩm.",
+      "Thông tin về bạn, chẳng hạn như tuyên bố rằng bạn sở hữu các quyền sở hữu trí tuệ liên quan đến sản phẩm.",
+      "Hình ảnh hoặc mô tả về sản phẩm."
+    ],
+    "retrieval_terms": [
+      "Cam kết hoặc chính sách bảo hành",
+      "Quy trình vận chuyển, giao hàng, đổi trả, hoàn tiền",
+      "Hình ảnh hoặc mô tả về sản phẩm"
+    ],
+    "evidence_location": "tiktok-thong-tin-bao-hanh-sai-lech.md:20-28",
+    "metadata_filter": null
+  },
+  {
+    "id": "Q3",
+    "query": "Mô tả, hình ảnh và các thuộc tính sản phẩm do người bán cung cấp phải đáp ứng những yêu cầu nào?",
+    "gold_answer": "Mô tả và hình ảnh phải phù hợp với sản phẩm thực tế, không được gây hiểu lầm. Các thuộc tính phải đầy đủ, chính xác, phù hợp với mô tả, tên và hình ảnh trên trang sản phẩm, đồng thời đúng với sản phẩm khách hàng thực nhận.",
+    "expected_doc_id": "tiktok-huong-dan-dang-ban-bao-hanh",
+    "evidence_quotes": [
+      "Tất cả các mô tả sản phẩm (nội dung đăng tải) và hình ảnh liên quan phải phù hợp với sản phẩm thực tế được bán.",
+      "Mô tả sản phẩm không được gây hiểu lầm bằng tuyên bố khẳng định hoặc thiếu sót thông tin.",
+      "Tất cả thuộc tính sản phẩm do người bán cung cấp phải đầy đủ, chính xác và phù hợp với mô tả, tên và hình ảnh sản phẩm trên trang đăng thông tin sản phẩm của TikTok Shop. Tất cả các mô tả và thuộc tính sản phẩm cũng phải đúng với sản phẩm mà khách hàng sẽ nhận được."
+    ],
+    "retrieval_terms": [
+      "mô tả sản phẩm",
+      "hình ảnh liên quan",
+      "đầy đủ, chính xác"
+    ],
+    "evidence_location": "tiktok-huong-dan-dang-ban-bao-hanh.md:57-64",
+    "metadata_filter": null
+  },
+  {
+    "id": "Q4",
+    "query": "Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành nào?",
+    "gold_answer": "Có bốn lựa chọn: bảo hành quốc tế, bảo hành của nhà sản xuất, bảo hành của nhà cung cấp, hoặc không bảo hành.",
+    "expected_doc_id": "tiktok-bao-hanh-hang-tan-trang",
+    "evidence_quotes": [
+      "Hình thức bảo hành bao gồm:\n- \"Bảo hành quốc tế\"\n- \"Bảo hành của nhà sản xuất\"\n- \"Bảo hành của nhà cung cấp\"\n- \"Không bảo hành\""
+    ],
+    "retrieval_terms": [
+      "Hình thức bảo hành bao gồm",
+      "Bảo hành quốc tế",
+      "Không bảo hành"
+    ],
+    "evidence_location": "tiktok-bao-hanh-hang-tan-trang.md:92-98",
+    "metadata_filter": {
+      "audience": "seller"
+    }
+  },
+  {
+    "id": "Q5",
+    "query": "Người bán có được vô hiệu tiêu chuẩn bảo hành nếu khách hàng không đánh giá 5 sao không?",
+    "gold_answer": "Không. TikTok Shop liệt kê tuyên bố vô hiệu tiêu chuẩn bảo hành vì khách hàng không đánh giá 5 sao là một ví dụ về điều khoản bán hàng không công bằng và yêu cầu người bán tránh sử dụng tuyên bố này.",
+    "expected_doc_id": "tiktok-dieu-khoan-bao-hanh-bat-cong",
+    "evidence_quotes": [
+      "Chúng tôi sẽ vô hiệu tiêu chuẩn bảo hành của sản phẩm nếu khách hàng không đánh giá 5 sao."
+    ],
+    "retrieval_terms": [
+      "tiêu chuẩn bảo hành",
+      "không đánh giá 5 sao"
+    ],
+    "evidence_location": "tiktok-dieu-khoan-bao-hanh-bat-cong.md:35-46",
+    "metadata_filter": null
+  }
+]

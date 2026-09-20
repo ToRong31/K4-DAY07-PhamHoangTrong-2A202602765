@@ -40,6 +40,7 @@ pytest tests/ -v          # Phần lớn bài kiểm thử sẽ THẤT BẠI (ch
 
 Mặc định, lab vẫn chạy với trình nhúng giả lập `_mock_embed` nên **không bắt buộc** cài đặt mô hình nhúng (embedder) thật.
 File `.env` được tự động nạp khi chạy `main.py`. Với các đoạn mã Python (snippet) chạy trực tiếp, hãy dùng lệnh `export` cho các biến môi trường cần thiết hoặc gọi hàm `load_dotenv()` nếu cần.
+Phần tạo câu trả lời trong demo `main.py` dùng `gpt-4o-mini` qua OpenAI API thật; cần đặt `OPENAI_API_KEY` trong môi trường hoặc `.env`. Bộ kiểm thử vẫn dùng hàm LLM giả lập được truyền vào `KnowledgeBaseAgent` và không gọi API.
 
 ## Tùy Chọn Mô Hình Nhúng (Embedding Backend)
 

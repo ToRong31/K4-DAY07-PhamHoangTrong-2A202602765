@@ -59,9 +59,15 @@ def load_documents_from_files(file_paths: list[str]) -> list[Document]:
 
 
 def demo_llm(prompt: str) -> str:
-    """A simple mock LLM for manual RAG testing."""
-    preview = prompt[:400].replace("\n", " ")
-    return f"[DEMO LLM] Generated answer from prompt preview: {preview}..."
+    """Generate a grounded answer with GPT-4o mini."""
+    from openai import OpenAI
+
+    response = OpenAI().responses.create(
+        model="gpt-4o-mini",
+        input=prompt,
+        store=False,
+    )
+    return response.output_text.strip()
 
 
 def run_manual_demo(question: str | None = None, sample_files: list[str] | None = None) -> int:
@@ -119,6 +125,7 @@ def run_manual_demo(question: str | None = None, sample_files: list[str] | None 
         print(f"   content preview: {result['content'][:120].replace(chr(10), ' ')}...")
 
     print("\n=== KnowledgeBaseAgent Test ===")
+    print("LLM backend: gpt-4o-mini")
     agent = KnowledgeBaseAgent(store=store, llm_fn=demo_llm)
     print(f"Question: {query}")
     print("Agent answer:")
@@ -127,6 +134,8 @@ def run_manual_demo(question: str | None = None, sample_files: list[str] | None 
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     question = " ".join(sys.argv[1:]).strip() if len(sys.argv) > 1 else None
     return run_manual_demo(question=question)
 

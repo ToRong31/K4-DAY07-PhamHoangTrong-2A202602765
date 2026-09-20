@@ -1,0 +1,64 @@
+Strategy: heading | Embedding: openai | LLM: gpt-4o-mini | Chunks loaded: 329
+
+Q1: Theo quy chế TikTok Shop, người bán phải thực hiện bảo hành và bảo trì sản phẩm theo thông tin nào?
+Filter: None | Gold: Người bán phải bảo hành và bảo trì theo thông tin mà họ đã cung cấp và hiển thị khi niêm yết sản phẩm trên TikTok Shop. Nếu sản phẩm có áp dụng bảo hành hoặc bảo trì, người bán phải nhận sản phẩm và thực hiện theo đúng thông tin đã niêm yết.
+  1. score=0.7659 doc_id=tiktok-quy-che-bao-hanh chunk=tiktok-quy-che-bao-hanh#0 heading=Quy trình bảo hành và bảo trì trên TikTok Shop
+     Quy trình bảo hành và bảo trì trên TikTok Shop  Chính sách cửa hàng TikTok tại Việt Nam  17/08/2026  **Thông tin Nhà vận hành:** - **Đơn vị vận hành:** TikTok Pte. Ltd. - **Địa chỉ
+  2. score=0.7656 doc_id=tiktok-quy-che-bao-hanh chunk=tiktok-quy-che-bao-hanh#15 heading=QUY CHẾ HOẠT ĐỘNG > III. QUY TRÌNH GIAO DỊCH > 5. Quy trình bảo hành và bảo trì > Trách nhiệm của TikTok
+     QUY CHẾ HOẠT ĐỘNG > III. QUY TRÌNH GIAO DỊCH > 5. Quy trình bảo hành và bảo trì > Trách nhiệm của TikTok  - TikTok không chịu trách nhiệm về việc bảo hành và bảo trì Sản Phẩm do Ng
+  3. score=0.7539 doc_id=tiktok-huong-dan-dang-ban-bao-hanh chunk=tiktok-huong-dan-dang-ban-bao-hanh#1 heading=Hướng dẫn đăng bán và khai báo thông tin bảo hành > 1. Tổng quan > 1.1 Giới thiệu
+     Hướng dẫn đăng bán và khai báo thông tin bảo hành > 1. Tổng quan > 1.1 Giới thiệu  Hướng dẫn niêm yết sản phẩm tại TikTok Shop đã được soạn thảo với mục đích: - Xây dựng môi trường
+  document_rank=1 evidence_rank=None terms=0/2 retrieval_score=0/2 (cần kiểm câu trả lời agent để chấm rubric cuối)
+  Agent answer: Người bán phải thực hiện bảo hành và bảo trì sản phẩm theo thông tin về bảo hành và bảo trì do Người Bán cung cấp [2].
+  Agent answer review: cần đối chiếu thủ công với gold answer và citation.
+
+Q2: Thông tin đăng bán sản phẩm bị coi là sai lệch nếu không chính xác hoặc không thể xác minh về những nhóm nội dung nào?
+Filter: None | Gold: Các nhóm nội dung gồm: cam kết hoặc chính sách bảo hành; vận chuyển, giao hàng, đổi trả, hoàn tiền hoặc dịch vụ khách hàng; thông tin về người bán như quyền sở hữu trí tuệ; và hình ảnh hoặc mô tả sản phẩm.
+  1. score=0.6993 doc_id=tiktok-huong-dan-dang-ban-bao-hanh chunk=tiktok-huong-dan-dang-ban-bao-hanh#7 heading=Hướng dẫn đăng bán và khai báo thông tin bảo hành > 3. Hạn chế trong việc niêm yết sản phẩm > 3.1 Niêm yết sản phẩm gây hiểu lầm > 3.1.1 Trình bày thông tin sai sự thật
+     Hướng dẫn đăng bán và khai báo thông tin bảo hành > 3. Hạn chế trong việc niêm yết sản phẩm > 3.1 Niêm yết sản phẩm gây hiểu lầm > 3.1.1 Trình bày thông tin sai sự thật   - Người b
+  2. score=0.6909 doc_id=tiktok-quy-che-bao-hanh chunk=tiktok-quy-che-bao-hanh#166 heading=QUY CHẾ HOẠT ĐỘNG > PHỤ LỤC 6 - Quy Định Về Quản Lý Và Kiểm Soát Thông Tin > 3. Hạn chế trong việc đăng sản phẩm
+     QUY CHẾ HOẠT ĐỘNG > PHỤ LỤC 6 - Quy Định Về Quản Lý Và Kiểm Soát Thông Tin > 3. Hạn chế trong việc đăng sản phẩm  Khi xem nội dung đăng tải sản phẩm, khách hàng kỳ vọng thông tin t
+  3. score=0.6875 doc_id=tiktok-huong-dan-dang-ban-bao-hanh chunk=tiktok-huong-dan-dang-ban-bao-hanh#33 heading=Hướng dẫn đăng bán và khai báo thông tin bảo hành > 4. Yêu cầu về trang thông tin sản phẩm > 4.3 Danh mục Sản phẩm
+     Hướng dẫn đăng bán và khai báo thông tin bảo hành > 4. Yêu cầu về trang thông tin sản phẩm > 4.3 Danh mục Sản phẩm  Người bán phải chọn danh mục phân loại sản phẩm thích hợp khi đă
+  document_rank=None evidence_rank=None terms=0/3 retrieval_score=0/2 (cần kiểm câu trả lời agent để chấm rubric cuối)
+  Agent answer: Thông tin đăng bán sản phẩm bị coi là sai lệch nếu không chính xác hoặc không thể xác minh về giá cả hoặc chiết khấu không nhất quán, hình ảnh, tên thương hiệu, mô tả, các thuộc tính, mẫu mã, thuộc tính bán hàng, bảo đảm sản phẩm hoặc bảo hành [2].
+  Agent answer review: cần đối chiếu thủ công với gold answer và citation.
+
+Q3: Mô tả, hình ảnh và các thuộc tính sản phẩm do người bán cung cấp phải đáp ứng những yêu cầu nào?
+Filter: None | Gold: Mô tả và hình ảnh phải phù hợp với sản phẩm thực tế, không được gây hiểu lầm. Các thuộc tính phải đầy đủ, chính xác, phù hợp với mô tả, tên và hình ảnh trên trang sản phẩm, đồng thời đúng với sản phẩm khách hàng thực nhận.
+  1. score=0.7086 doc_id=tiktok-huong-dan-dang-ban-bao-hanh chunk=tiktok-huong-dan-dang-ban-bao-hanh#32 heading=Hướng dẫn đăng bán và khai báo thông tin bảo hành > 4. Yêu cầu về trang thông tin sản phẩm > 4.2 Mô tả Sản phẩm
+     Hướng dẫn đăng bán và khai báo thông tin bảo hành > 4. Yêu cầu về trang thông tin sản phẩm > 4.2 Mô tả Sản phẩm  Mô tả sản phẩm cho phép người bán cung cấp thêm thông tin về sản ph
+  2. score=0.6722 doc_id=tiktok-quy-che-bao-hanh chunk=tiktok-quy-che-bao-hanh#189 heading=QUY CHẾ HOẠT ĐỘNG > PHỤ LỤC 6 - Quy Định Về Quản Lý Và Kiểm Soát Thông Tin > 4. Yêu cầu về trang thông tin sản phẩm > 4.2 Mô tả Sản phẩm
+     QUY CHẾ HOẠT ĐỘNG > PHỤ LỤC 6 - Quy Định Về Quản Lý Và Kiểm Soát Thông Tin > 4. Yêu cầu về trang thông tin sản phẩm > 4.2 Mô tả Sản phẩm  Mô tả sản phẩm cho phép người bán cung cấp
+  3. score=0.6187 doc_id=tiktok-quy-che-bao-hanh chunk=tiktok-quy-che-bao-hanh#192 heading=QUY CHẾ HOẠT ĐỘNG > PHỤ LỤC 6 - Quy Định Về Quản Lý Và Kiểm Soát Thông Tin > 4. Yêu cầu về trang thông tin sản phẩm > 4.3 Danh mục Sản phẩm
+     QUY CHẾ HOẠT ĐỘNG > PHỤ LỤC 6 - Quy Định Về Quản Lý Và Kiểm Soát Thông Tin > 4. Yêu cầu về trang thông tin sản phẩm > 4.3 Danh mục Sản phẩm  . Ví dụ: thông tin về màu sắc, kích thư
+  document_rank=1 evidence_rank=1 terms=1/3 retrieval_score=0/2 (cần kiểm câu trả lời agent để chấm rubric cuối)
+  Agent answer: Mô tả, hình ảnh và các thuộc tính sản phẩm do người bán cung cấp phải đáp ứng các yêu cầu sau:  1. Mô tả các đặc điểm chính của sản phẩm (ví dụ: đặc tính, chức năng, thành phần, số lượng). 2. Không dưới 30 từ. 3. Được viết rõ ràng để giúp khách hàng đưa ra quyết định sáng suốt. 4. Bao gồm tất cả thông tin, thông số kỹ thuật và cảnh báo an toàn sản phẩm hiện hành, đặc biệt cần thiết với một số phân loại sản phẩm nhất định (ví dụ như thực phẩm bổ sung) [1][2].
+  Agent answer review: cần đối chiếu thủ công với gold answer và citation.
+
+Q4: Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành nào?
+Filter: {'audience': 'seller'} | Gold: Có bốn lựa chọn: bảo hành quốc tế, bảo hành của nhà sản xuất, bảo hành của nhà cung cấp, hoặc không bảo hành.
+  1. score=0.7479 doc_id=tiktok-bao-hanh-hang-tan-trang chunk=tiktok-bao-hanh-hang-tan-trang#5 heading=Bảo hành sản phẩm tân trang hoặc đã qua sử dụng > 2. Ngành hàng sản phẩm
+     Bảo hành sản phẩm tân trang hoặc đã qua sử dụng > 2. Ngành hàng sản phẩm    ---
+  2. score=0.7475 doc_id=tiktok-bao-hanh-hang-tan-trang chunk=tiktok-bao-hanh-hang-tan-trang#10 heading=Bảo hành sản phẩm tân trang hoặc đã qua sử dụng > 3. Thuộc tính sản phẩm > 3.2 Hình thức bảo hành
+     Bảo hành sản phẩm tân trang hoặc đã qua sử dụng > 3. Thuộc tính sản phẩm > 3.2 Hình thức bảo hành  Hình thức bảo hành bao gồm: - "Bảo hành quốc tế" - "Bảo hành của nhà sản xuất" - 
+  3. score=0.7397 doc_id=tiktok-bao-hanh-hang-tan-trang chunk=tiktok-bao-hanh-hang-tan-trang#9 heading=Bảo hành sản phẩm tân trang hoặc đã qua sử dụng > 3. Thuộc tính sản phẩm > 3.1 Tình trạng sản phẩm
+     Bảo hành sản phẩm tân trang hoặc đã qua sử dụng > 3. Thuộc tính sản phẩm > 3.1 Tình trạng sản phẩm   | **Đã qua sử dụng** | Đã qua sử dụng | Có một số khuyết điểm hoặc lỗi nhỏ. | |
+  document_rank=1 evidence_rank=2 terms=3/3 retrieval_score=1/2 (cần kiểm câu trả lời agent để chấm rubric cuối)
+  Agent answer: Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành sau:  - "Bảo hành quốc tế" - "Bảo hành của nhà sản xuất" - "Bảo hành của nhà cung cấp" - "Không bảo hành" [2].
+  Agent answer review: cần đối chiếu thủ công với gold answer và citation.
+  A/B không filter: tiktok-bao-hanh-hang-tan-trang#5 (0.7479), tiktok-bao-hanh-hang-tan-trang#10 (0.7475), tiktok-bao-hanh-hang-tan-trang#9 (0.7397)
+  A/B có filter: tiktok-bao-hanh-hang-tan-trang#5 (0.7479), tiktok-bao-hanh-hang-tan-trang#10 (0.7475), tiktok-bao-hanh-hang-tan-trang#9 (0.7397)
+  Hai top-3 giống nhau; câu này chưa chứng minh được lợi ích của filter.
+
+Q5: Người bán có được vô hiệu tiêu chuẩn bảo hành nếu khách hàng không đánh giá 5 sao không?
+Filter: None | Gold: Không. TikTok Shop liệt kê tuyên bố vô hiệu tiêu chuẩn bảo hành vì khách hàng không đánh giá 5 sao là một ví dụ về điều khoản bán hàng không công bằng và yêu cầu người bán tránh sử dụng tuyên bố này.
+  1. score=0.6366 doc_id=tiktok-dieu-khoan-bao-hanh-bat-cong chunk=tiktok-dieu-khoan-bao-hanh-bat-cong#1 heading=Điều khoản bảo hành không công bằng > 1. Các ví dụ về hành vi không công bằng đối với Người Mua > 1.1 Tuyên bố nhằm đe dọa người mua:
+     Điều khoản bảo hành không công bằng > 1. Các ví dụ về hành vi không công bằng đối với Người Mua > 1.1 Tuyên bố nhằm đe dọa người mua:  - "Chúng tôi sẽ phớt lờ những khách hàng đưa 
+  2. score=0.6146 doc_id=tiktok-dieu-khoan-bao-hanh-bat-cong chunk=tiktok-dieu-khoan-bao-hanh-bat-cong#3 heading=Điều khoản bảo hành không công bằng > 2. Các ví dụ về điều khoản bán hàng không công bằng
+     Điều khoản bảo hành không công bằng > 2. Các ví dụ về điều khoản bán hàng không công bằng  Ban đầu, bạn có thể cung cấp chính sách hủy đơn hàng và trả hàng tùy chỉnh, nhưng ít nhất
+  3. score=0.6062 doc_id=tiktok-dieu-khoan-bao-hanh-bat-cong chunk=tiktok-dieu-khoan-bao-hanh-bat-cong#2 heading=Điều khoản bảo hành không công bằng > 1. Các ví dụ về hành vi không công bằng đối với Người Mua > 1.2 Tuyên bố nhằm mục đích khích lệ hoặc trao thưởng cho người mua đổi lại đánh giá tích cực:
+     Điều khoản bảo hành không công bằng > 1. Các ví dụ về hành vi không công bằng đối với Người Mua > 1.2 Tuyên bố nhằm mục đích khích lệ hoặc trao thưởng cho người mua đổi lại đánh gi
+  document_rank=1 evidence_rank=2 terms=2/2 retrieval_score=1/2 (cần kiểm câu trả lời agent để chấm rubric cuối)
+  Agent answer: Thông tin không được tìm thấy.
+  Agent answer review: cần đối chiếu thủ công với gold answer và citation.

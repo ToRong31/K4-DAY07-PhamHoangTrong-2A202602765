@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+data/seller-warranty-policy/chunks/*.sqlite3
 
 # Environment
 .env

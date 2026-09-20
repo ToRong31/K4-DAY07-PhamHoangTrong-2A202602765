@@ -2,9 +2,10 @@
 # all 42 tests run on MockEmbedder, no real embedding backend needed.
 pytest==9.1.1
 python-dotenv==1.2.2
+openai>=2.0,<4.0
 
 # Want a real embedding backend for benchmark quality (optional, not graded)?
 #   Local, free, no API key : pip install -r requirements-local.txt
-#   OpenAI                  : pip install openai
+#   OpenAI embeddings       : set OPENAI_API_KEY and EMBEDDING_PROVIDER=openai
 #   Gemini (free tier)      : pip install google-genai
 # See README.md "Tuy Chon Mo Hinh Nhung" or Phu luc B in the lab doc.
